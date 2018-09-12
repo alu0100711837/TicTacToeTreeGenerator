@@ -1,0 +1,65 @@
+body {
+    background-color: aqua;
+}
+
+#frame {
+    background-color: white;
+}
+
+#tree-simple {
+    background-color:rgb(20, 30, 114);
+    height: 1000px;
+    color: lightgray;
+    display: flex;
+}
+
+.board {
+    width: 96px;
+    height: 96px;
+    border: solid 1px;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.cell {
+    width: 30px;
+    height: 30px;
+    border: solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.victory {
+    color: green
+}
+
+.lose {
+    color: darkred
+}
+
+
+
+.perro {
+    ababaababa
+    ababaababaa
+    ababaababa
+}
+
+
+
+.gato {
+    ririririr
+    ririririr
+    ririririr
+    ririr
+
+}
+
+
+.vaca {
+    aqaqaqq
+    qaqaqaqaqa
+    aqaq
+    
+}
